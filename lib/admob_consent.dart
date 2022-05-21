@@ -26,7 +26,7 @@ class AdmobConsent {
   final _onConsentFormObtained = StreamController<void>.broadcast();
   final _onConsentFormError = StreamController<dynamic>.broadcast();
 
-  static late AdmobConsent? _instance;
+  static AdmobConsent? _instance;
 
   factory AdmobConsent() {
     if (_instance == null) {
